@@ -1,0 +1,155 @@
+/* Início do cabeçalho */
+
+.header__header{
+    position: fixed;
+    background-color: #cdffb6;
+    width: 100%;
+}
+
+.header__div{
+    display: flex;
+    justify-content: center;
+}
+
+.header__titulo{
+    color: #327d26;
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+    padding: 20px;
+}
+
+.header_ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.header_li{
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.header_li--contato{
+    color: #327d26;
+}
+
+.header_li:hover{
+    background-color: #479f39;
+    font-size: 26px;
+}
+
+.border{
+    width: 100%;
+    background-color: #327d26;
+    height: 10px;
+}
+
+/* Fim do cabeçalho */
+
+
+/* Início do rodapé */
+
+footer{
+    width: 100%;
+    background-color: #cdffb6;
+}
+
+.footer__div{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__img{
+    width: 100px;
+    padding-top: 20px;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer__copyright--Rafa{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+}
+
+/* Fim do rodapé */
+
+
+/* Início do conteúdo principal */
+
+.main{
+    padding-top: 15%;
+}
+
+.main__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+label{
+    font-size: 25px;
+    font-family: 'Tajawal', sans-serif;
+    padding-top: 2%;
+}
+
+input{
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+    width: 300px;
+    padding-left: 1%;
+}
+
+input:hover{
+    border-style: solid;
+    border-color: #1c7f12;
+}
+
+#mensagem{
+    height: 100px;
+}
+
+.main__form--submit{
+    margin-top: 2%;
+    height: 60px;
+    background-color: #72bf60;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1c7f12;
+}
+
+.main__contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main__contato--tit{
+    margin: 2%;
+    width: 450px;
+    font-size: 30px;
+    font-family: 'Paprika', cursive;
+    color: #1c7f12;
+}
+
+.main__contato--txt{
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    background-color: #9ddf87;
+}
+
+/* Fim do conteúdo principal */

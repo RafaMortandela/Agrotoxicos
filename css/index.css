@@ -1,0 +1,207 @@
+/* Explicando o que é Flex box :) */
+
+/*
+    Flex box é uma ferramenta do CSS que te permite
+    ajustar e alinhar itens dentro de um "container", ou
+    um espaço reservado dentro de seu código.
+
+    Para a estilização de meu código, as ferramentas dentro
+    do Flex box que eu mais utilizei foram: "justify-content",
+    "align-items", "flex-direction", entre outras.
+
+    Em cada situação usei uma combinação de ferramentas
+    diferentes, mas todas tinham uma função em comum:
+    conseguir ajustar e alinhar os elementos dentro daquele
+    espaço reservado
+*/
+
+
+/* Início do cabeçalho */
+
+.header__header{
+    position: fixed;
+    background-color: #cdffb6;
+    width: 100%;
+}
+
+.header__div{
+    display: flex;
+    justify-content: center;
+}
+
+/* Exemplo de utilização de Flex box */
+
+/*
+    Como podemos ver acima, eu utilizei da ferramenta
+    "justify-content: center" do Flex box para poder
+    ajustar todos os elementos do meu container, ou 
+    então nomeado como "header__div", para serem
+    centralizados na seção "header" da página
+*/
+
+.header__titulo{
+    color: #327d26;
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+    padding: 20px;
+}
+
+.header_ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.header_li{
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.header_li--inicio{
+    color: #327d26;
+}
+
+.header_li:hover{
+    background-color: #479f39;
+    font-size: 26px;
+}
+
+.border{
+    width: 100%;
+    background-color: #327d26;
+    height: 10px;
+}
+
+/* Fim do cabeçalho */
+
+
+/* Início do rodapé */
+
+footer{
+    width: 100%;
+    background-color: #cdffb6;
+}
+
+.footer__div{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__img{
+    width: 100px;
+    padding-top: 20px;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer__copyright--Rafa{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+}
+
+/* Fim do rodapé */
+
+
+/* Início do conteúdo principal */
+
+.main{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.agrotoxico__tit{
+    font-size: 30px;
+    color: #327d26;
+    font-family: 'Paprika', cursive;
+}
+
+.agrotoxico__txt{
+    font-size: 23px;
+    font-family: 'Tajawal', sans-serif;
+    padding-top: 5%;
+}
+
+.main__txt{
+    padding-top: 2%;
+    width: 600px;
+    padding: 1%;
+}
+
+.main__img{
+    width: 40%;
+}
+
+.main__img--arv{
+    width: 450px;
+}
+
+#main__txt--2{
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #cdffb6;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.agrotoxico__txt--bold{
+    color: #327d26;
+}
+
+.agrotoxico__txt--lista{
+    list-style:disc;
+    text-align: start;
+    font-size: 23px;
+    font-family: 'Tajawal', sans-serif;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: black;
+}
+
+.bolder--vermelho{
+    color: red;
+}
+
+.bolder--amarelo{
+    color: #ffea00;
+}
+
+.bolder--azul{
+    color: blue;
+}
+
+.bolder--verde{
+    color: green;
+}
+
+/* Fim do conteúdo principal */
+
+
+/* Início do conteúdo antes do footer */
+
+.before__footer__img{
+    margin: 0%;
+    left: 0%;
+    top: 0%;
+    padding: 0%;
+}
+
+.before__footer__img--grama{
+    width: 100%;
+    padding: 0%;
+}
+
+/* Fim do conteúdo antes do footer */
